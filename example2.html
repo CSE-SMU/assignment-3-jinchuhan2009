@@ -1,8 +1,67 @@
 <html>
   <head>
-    <title>Recreating a Wireframe with Bootstrap</title>
+    <title>Recreating a Wireframe with</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+        <style>
+        #ac{
+            position:relative;
+            left:8em;
+        }
+        #pop{
+            position:relative;
+            top:50%;
+        }
+        #contact{
+          position:absolute;
+          
+        }
+        </style>
   </head>
   <body>
+    <div class="row">
+        <div class="navbar navbar-light bg-faded">
+            <div class="col-xs-12 col-xs-offset-2">
+             <div class="navbar-brand"> <img class="clearfix" src="picture/logo.jpg" width="70em" height="35em">
+                 </div>
+               <ul class="nav navbar-nav">
+                 <li class="nav-item"><a class="nav-link" href="#">Protfio</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#">Details</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+             </ul>
+            </div>
+        </div>
+    </div><!--end of first row-->
+       <div class="container-fluid" id="contact">
+        <img src="picture/banner.jpg" class="col-xs-12">
+            <div class="col-xs-4 col-xs-offset-2">
+                <div class="card card-block" style="max-width:20em">
+                    <h4>Contact</h4>
+                    <div class="card-text"><input type="text" placeholder="Name" style="width:16em"></div>
+                    <br/>
+                    <div calss="card-text"><input type="text" placeholder="Email" style="width:16em"></div>
+                    <br/>
+                    <a href="#" class="btn btn-primary">Submit</a>
+                        </div>
+            </div>
+            <div class="col-xs-6">
+                <br/>
+                <h4>Android:Netrunner</h4>
+                <p>Android:Netrunner is a cyberpunk background game. Players are playing as mega corporation or individual runner during the game.</p>
+            </div>
+            
+        </div>
+        <div class="container-fluid" id="pop">
+            <div class="col-xs-4 col-xs-offset-7">
+            <div class="card" style="max-width:15em" >
+              <h4 class="card-header">Match up</h4>
+              <div class="card-block">
+              <p class="card-text">Good luck and Take care!</p>
+              </div>
+              <a href="#" class="btn btn-primary" id="ac">Start!</a>
+          </div>
+         </div>
+        </div><!--end of pop-->
+        
   </body>
 </html>
